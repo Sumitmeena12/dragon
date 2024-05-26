@@ -1,7 +1,7 @@
 {
       "name": "Fallen Robot",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
+      "logo": "https://telegra.ph/file/03d69b2bc27320ee0deb0.jpg",
       "keywords": [
          "telegram",
          "modular",
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/AnonymousX1025/FallenRobot",
+   "repository": "https://github.com/Sumitmeena12/FallenRobot",
    "stack": "heroku-22",
    "addons": [
       {
@@ -61,7 +61,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "6592410058"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
